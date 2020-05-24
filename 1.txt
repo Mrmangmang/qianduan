@@ -4,3 +4,44 @@
 4.js创建十个a标签，点击的时候弹出对应的序号
 5.手写节流throttle,防抖debounce
 6.promise解决了什么问题
+7.变量计算-类型转换
+8.手写深拷贝
+9.原型原型链
+10.如何判断一个变量是不是数组
+11.手写一个简易jQuery，考虑插件和扩展性
+12.class的原型本质
+13.class与继承
+14.类型判断instanceof
+15.this的不同应用场景，如何取值
+16.手写bind函数
+17.实际开发中闭包的应用场景，举例说明
+18.同步异步的区别是什么
+19.手写promise加载一张图片
+20.前端使用异步的场景有哪些
+21.dom是那种数据结构：dom树
+22.dom操作常用的api：dom节点，结构
+23.attr和property的区别：property：修改对象属性，不会体现到html结构中，attribute：修改html属性，会改变html结构，两者都可能是dom重新渲染
+24.bom：Brower object model ,(navigator,screen,location,history)
+25.什么是跨域(同源策略)
+26.jsonp
+27.CORS(服务端支持)
+27.cookie  localStorage SessionStorage
+28.抓包
+29.从输入url到渲染出页面的整个过程
+30.window.onload 和DomContentLoaded的区别
+31.性能优化原则
+32.SSR
+33.懒加载
+34.节流，防抖
+35.web安全：xss跨站请求攻击，sxrf跨站请求伪造
+36.手写深度比较，模拟loadsh isEaual
+37.split() 和join()的区别
+38.数组的pop push unshift shift分别做了什么
+39.数组slice和splice的区别
+40.[10,20,30]map(parseInt)
+41.call apply的区别
+42.时间代理(委托)是什么
+43.闭包是什么，有什么特性，有什么负面影响
+44.jsonp的原理？
+45.函数声明和函数表达式的区别
+46.什么是json

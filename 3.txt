@@ -1,0 +1,28 @@
+1.typeof 能判断所有的值类型
+//typeof 能判断所有的值类型
+let a;                console.log(typeof a) // undefined
+const a = 'string'    console.log(typeof a) // string
+const a = 1           console.log(typeof a) // number
+const a = true        console.log(typeof a) // boolean
+const a = Symbol('a') console.log(typeof a) // Symbol
+2.typeof 能判断是否是函数
+//typeof 能判断函数
+typeof console.log(1)    // function
+typeof function fn () {} // function
+3.typeof 能判断出是否是引用类型（不可细分）
+//typeof 判断引用类型
+const a = null       typeof a //object
+const a = { a: 100 } typeof a // object
+const a = ['a']      typeof a // object
+typeof 可以判断出所有的值类型
+typeof 可以判断是否是function
+typeof 可以判断是否是引用类型，但是不可细分，如果需要判断是否是数组或者对象，需要用到instanceof
+const a = { a: 100 }
+console.log(a instanceof Object)  //true
+const b = ['a','b']
+console.log(b instanceof Array)  //true
+===================================
+简单来说： == 代表相同， ===代表严格相同, 为啥这么说呢，
+这么理解： 当进行双等号比较时候： 先检查两个操作数数据类型，如果相同， 则进行===比较， 如果不同， 则愿意为你进行一次类型转换， 转换成相同类型后再进行比较， 而===比较时， 如果类型不同，直接就是false.
+=======================================
+
